@@ -1,0 +1,329 @@
+#div-1 {
+    max-width: 88rem;
+    /* max-height: 143rem; */
+    height: 37rem;
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+img {
+    margin-top: 74px;
+    border-radius: 15px;
+    height: 27rem;
+    width: 42rem;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+
+}
+
+.texts {
+    color: #ffff;
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: green;
+    border-radius: 5px;
+
+}
+
+.txt {
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+.text {
+    margin-left: 190px;
+    font-weight: lighter;
+    font-size: 24px;
+
+}
+
+.text1 {
+    margin-left: 263px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.text2 {
+    margin-left: 218px;
+    font-weight: 400;
+    font-size: 22px;
+    color: red;
+
+}
+
+.text3 {
+    margin-left: 255px;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 30rem;
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    form {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: right;
+        width: 11rem;
+
+    }
+
+    img {
+        margin-top: 17px;
+        border-radius: 15px;
+        height: 16rem;
+        width: 44rem;
+    }
+
+    #div-1 {
+        max-width: 46rem;
+        height: 46rem;
+        margin: 2rem 0rem 0rem 1rem
+    }
+
+    h5 {
+        font-size: 37px;
+        width: 43rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .text2 {
+        font-size: 18px;
+        margin-left: 100px;
+    }
+
+    .text1 {
+        font-size: 18px;
+        margin-left: 144px;
+    }
+
+    .txt {
+        font-size: 18px;
+    }
+
+    .text {
+        margin-left: 82px;
+        font-weight: lighter;
+        font-size: 17px;
+    }
+
+    .text3 {
+        margin-left: 132px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .card-body {
+        width: 44rem;
+    }
+
+    ul {
+        width: 44rem;
+
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    #div-1 {
+        max-width: 46rem;
+    height: 48rem;
+        margin: 2rem -20rem 0rem 1rem;
+        border: 1px green solid;
+    }
+
+    .row {
+
+        flex-direction: column;
+    }
+
+    .card-body {
+        width: 44rem;
+        margin-left: -9rem;
+    }
+
+    ul {
+        width: 44rem;
+        margin-left: -9rem;
+
+    }
+
+    .container-fluid {
+        width: 425px;
+    }
+
+    img {
+        margin-left: -9rem;
+        margin-top: 15px;
+
+    }
+
+    form {
+        margin-top: 2rem;
+        margin-left: 20rem;
+    }
+
+
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+
+    #div-1 {
+        max-width: 24rem;
+        height: 57rem;
+        margin: 2rem -20rem 0rem 1rem;
+        border: 1px green solid;
+    }
+
+    .row {
+
+        flex-direction: column;
+    }
+
+    img {
+        margin-left: -0.5rem;
+        margin-top: 22px;
+        border-radius: 15px;
+        height: 19rem;
+        width: 23rem;
+    }
+
+    .card-body {
+        width: 20rem;
+        margin-left: 1rem;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .texts {
+        font-size: 15px;
+    }
+
+    .txt {
+        font-size: 22px;
+    }
+
+    ul {
+        width: 23rem;
+    }
+
+    .text {
+        margin-left: 90px;
+    }
+
+    .text1 {
+        margin-left: 156px;
+    }
+
+    .text2 {
+        margin-left: 111px;
+    }
+
+    .text3 {
+        margin-left: 150px;
+    }
+
+    form {
+        margin-top: 2rem;
+        margin-left: 19rem;
+
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+
+    #div-1 {
+        max-width: 22rem;
+        height: 45rem;
+        margin: 2rem -20rem 0rem 1rem;
+        border: 1px green solid;
+    }
+
+    .row {
+
+        flex-direction: column;
+    }
+
+    img {
+        margin-top: 12px;
+        border-radius: 15px;
+        height: 13rem;
+        width: 21.5rem;
+        margin-left: -0.5rem;
+
+    }
+    .card-body {
+        width: 20rem;
+        margin-left: 0rem;
+    }
+    h5 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    .texts {
+        font-size: 15px;
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    ul {
+        width: 20rem;
+    }
+   
+    .text {
+        margin-left: 90px;
+    }
+    .text1{
+        margin-left: 144px;
+    font-weight: 900;
+    font-size: 19px;
+    }
+    .text2{
+        margin-left: 100px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .text3{
+        margin-left: 131px;
+    }
+    form{
+        margin-top: 2rem;
+    margin-left: 18rem;
+    }
+
+}
